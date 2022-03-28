@@ -4,7 +4,6 @@
 
 void unsafe() {
     char buffer[40];
-    
     puts("Overflow me");
     gets(buffer);
 }
