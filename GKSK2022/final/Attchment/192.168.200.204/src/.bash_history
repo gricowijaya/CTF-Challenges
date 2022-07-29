@@ -1,0 +1,16 @@
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+exit
+ls
+xit
+exit
