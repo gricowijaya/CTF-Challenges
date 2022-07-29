@@ -1,0 +1,19 @@
+# Login
+curl -X 'POST' \
+  'http://192.168.200.193:5000/login' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d 'grant_type=&username={username}&password={password}'
+
+# Submit flag
+curl -X 'POST' \
+  'http://192.168.200.193:5000/submit' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer {token}' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "username": "username",
+  "ip_addr": "ip_addr",
+  "target": "target service_addr",
+  "flag": "FLAG"
+}'
