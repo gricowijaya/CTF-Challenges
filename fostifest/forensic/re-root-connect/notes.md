@@ -1,0 +1,1 @@
+Looks like hackerz keeps one more backdoor to get root access, looks like he can connect to the machine every minute! Find the full path of this backdoor and the destination IP Port used by the attacker Format Flag: Fostifest{/full/path/file:IP:Port}

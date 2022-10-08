@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QR Code Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+
+    {% if "//" in qr.qr_code_string %}
+    {% set URL = qr.qr_code_string ~ "/" %}
+    {{ URL }}
+    {% with qr_data = qr.qr_code_string %}
+    Type : {{qr.qr_code_type}} <br>
+    Data : {{ qr_data }}
+    <p>Source Content</p>
+    <textarea>{{ util.fetch_url(qr_data) }}</textarea>
+    {% endwith %}
+    {% else %}
+    Type : {{ qr.qr_code_type }} <br>
+    Data : {{ qr.qr_code_string }}
+    {% endif %}
+
+</body>
+
+</html>
