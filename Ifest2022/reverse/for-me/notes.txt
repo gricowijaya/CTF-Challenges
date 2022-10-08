@@ -1,0 +1,12 @@
+
+Ini gampang
+
+103.167.132.24:11100
+
+Author: Enryu#7942
+
+https://drive.google.com/drive/folders/1mEr-6sg6NeW4vrJNzrfxmHFamSYr7V93?usp=sharing
+
+hint 
+
+python2 solve.py

@@ -1,0 +1,3 @@
+Mikael sedang mencari flag miliknya, tetapi ia kesulitan dalam menemukannya sehingga ia terjebak di suatu tempat (kesesat mulu sih). Bisakah kalian dapatkan flag miliknya? Untuk isi flagnya misal flagnya berisi helloworld maka yang ditulis dalam jawaban yaitu IFEST22{helloworld}.
+
+Author: Lawson Schwantz #3021
